@@ -124,8 +124,39 @@ body {
     color: var(--White);  
 }
 
+.cart_button:hover {
+    background-color: var(--VeryDarkBlue);
+}
+
 .cart_button img {
     margin-right: 1rem;
 }
 
+
+@media only screen and (max-width: 620px)  {
+
+    body {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .card {
+       flex-direction: column;
+        width: 34.3rem;
+        height: 65rem;
+        margin-top: 2rem;
+    }
+    .image {
+        width: 34.3rem;
+        height: 25rem;
+        object-fit: cover;
+        
+    }
+    .product {
+        width: 34.3rem;
+        height: 45rem;
+    }
+
+}
 
